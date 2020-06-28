@@ -1,0 +1,280 @@
+#root {
+  viewport-fill: black;
+  fill: #DCE1E7;
+}
+
+#background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+#time {
+  font-size: 55;
+  font-family: Fabrikat-Bold;
+  text-length: 34;
+  text-anchor: start;
+  x: 25%;
+  y: 40;
+  fill: white;
+}
+
+#amPm {
+  font-size: 28;
+  font-family: Fabrikat-Bold;
+  text-length: 34;
+  text-anchor: start;
+  x: 66%;
+  y: 40;
+  fill: white;
+}
+
+#date {
+  x: 25%;
+  y: 70;
+  font-size: 28;
+  text-anchor: start;
+  font-family: Fabrikat-Bold;
+  text-length: 122;
+  fill: #DCE1E7;
+}
+
+#restingHr {
+  transform: translate(100%-78,93)
+}
+
+#bluetooth {
+  transform: translate(100%-78,203);
+}
+
+#bluetooth-icon-enabled {
+  display:none;
+} 
+
+#bluetooth-icon-disabled {
+  display:none;
+} 
+
+#hr {
+  transform: translate(100%-78,123)
+}
+
+#bat {
+  transform: translate(100%-78,163);
+}
+
+#view-exercise-type {
+  display: none;
+}
+
+#view-exercise {
+  display: none;
+}
+
+#btn-finish-exercise {
+}
+
+#btn-pause-exercise {
+  display: none;
+}
+
+#exercise-metric-time {
+  transform: translate(5,83);  
+  fill: #FF9A57;
+}
+
+#exercise-metric-cals {
+  transform: translate(5,123);
+  fill: #D96857;
+}
+
+#exercise-metric-dist {
+  transform: translate(5,163);
+  fill: #F06CA7;
+}
+
+#exercise-metric-speed {
+  transform: translate(5,203);
+  fill: #F06CA7;
+}
+
+
+#exercise-metric-time-count {
+  text-length: 159;
+}
+
+#exercise-metric-cals-count {
+  text-length: 159;
+}
+
+#exercise-metric-dist-count {
+  text-length: 159;
+}
+
+#exercise-type-background{
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+#exercise-type-1-container {
+  y: 0; 
+  width: 80%;
+  x: 20%;
+}
+
+#exercise-type-2-container {
+  y: 75;
+  width: 80%;
+  x: 20%;
+}
+
+#exercise-type-3-container {
+  y: 150;  
+  width: 80%;
+  x: 20%;
+}
+
+#exercise-type-4-container {
+  y: 225;  
+  width: 80%;
+  x: 20%;
+}
+
+#btn-pause-exercise {
+  fill: #DCE1E7;
+  display: none;
+}
+
+#btn-start-exercise {
+  fill: #DCE1E7;
+  display: none;
+}
+
+#btn-finish-exercise {
+  fill: #DCE1E7;
+  display: none;
+}
+
+
+#goal0 {
+  transform: translate(5,83);  
+  fill: #FF9A57;
+}
+
+#goal1 {
+  transform: translate(5,123);
+  fill: #D96857;
+}
+#goal2  {
+  transform: translate(5,163);
+  fill: #F06CA7;
+}
+#goal3  {
+  transform: translate(5,203);
+  fill: #BF57D9;
+}
+#goal4 {
+  transform: translate(5,243);
+  fill: #8E61F3;
+}
+
+#crypto-left {
+  transform: translate(5,100%-47)
+}
+
+#crypto-right {
+  transform: translate(50%,100%-47)
+}
+
+#crypto-container {
+  display: none;
+}
+
+#crypto-container .icon {
+  fill: white;
+}
+
+#bat-icon {
+}
+
+#bat-fill {
+  y: 7;
+  height: 10;
+  x:2;
+  width: 19;
+}
+
+.progress {
+  x: 26;
+  y: 29;
+  height: 5;
+  width: 10;
+}
+
+.bg {
+  x:26;
+  y:31;
+  height: 1;
+  width: 65%-24;
+}
+
+.tgt-no {
+  cx: 65%+5;
+  cy: 31;
+  r: 4;
+}
+
+.tgt-yes {
+  cx: 65%+5;
+  cy: 31;
+  r: 8; 
+  display: none;
+}
+
+.icon {
+  width: 24;
+  height: 24;
+  x:0;
+  y:0;
+}
+
+.count {
+  font-size: 32;
+  x: 26;
+  y: 25;
+  text-length: 15; 
+  font-family: Fabrikat-Bold;
+}
+
+.sideCount {
+  font-size: 28;
+}
+
+#hr-icon-systole {
+  fill: #F06CA7;
+  width: 20;
+  height: 20;
+  x:2;
+  y:2;
+}
+
+#hr-icon-diastole {
+  fill: #F06CA7;
+  width: 24;
+  height: 24;
+}
+
+
+#hr-count {
+  text-anchor: start ;
+}
+
+
+#bat-count {
+  text-anchor: start ;
+}
