@@ -160,10 +160,10 @@ function mySettings(props) {
       label="Date Format"
       settingsKey="dateFormat"
       options={[
-        {value:"DD.MM", name:"Monday 31.12"},
-        {value:"MM.DD", name:"Monday 12.31"},
-        {value:"SW DD.MM", name:"Mon 31.12"},
-        {value:"SW MM.DD", name:"Mon 12.31"},
+        {value:"DD.MM", name:"Monday (31/12)"},
+        {value:"MM.DD", name:"Monday (12/31)"},
+        {value:"SW DD.MM", name:"Mon (31/12)"},
+        {value:"SW MM.DD", name:"Mon (12/31)"},
         {value:"SW DD SM", name:"Mon 31 Dec"},
         {value:"SW DD LM", name:"Mon 31 December"},
         {value:"DD LM", name:"31 December"}
