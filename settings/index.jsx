@@ -6,6 +6,13 @@ function mySettings(props) {
   let modelName = props.settingsStorage.getItem("modelName"); //"Ionic" "Versa "Versa Lite"
   
   let colorSet = [
+    {color: "#ffb381"},   
+    {color: "#e38f82"},  
+    {color: "#f390bd"},  
+    {color: "#cf82e3"},  
+    {color: "#aa8af6"},  
+    {color: "#e4e8ec"}, 
+    
     {color: "#FF9A57"},   
     {color: "#D96857"},  
     {color: "#F06CA7"},  
