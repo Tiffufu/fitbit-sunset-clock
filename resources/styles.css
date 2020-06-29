@@ -14,9 +14,10 @@
 
 #time {
   font-size: 55;
-  font-family: Fabrikat-Bold;
+  font-family: Fabrikat-Black;
   text-length: 32;
   text-anchor: middle;
+  letter-spacing: 3;
   x: 50%;
   y: 44;
   fill: white;
@@ -34,12 +35,13 @@
 
 #date {
   x: 50%;
-  y: 72;
+  y: 75;
   font-size: 28;
   text-anchor: middle;
   font-family: Fabrikat-Bold;
   text-length: 120;
-  fill: #F2D394;
+  letter-spacing: 3;
+  fill: #ADBBD7;
 }
 
 
@@ -211,29 +213,33 @@
   width: 19;
 }
 
+/*  Progress Bar Fill*/
 .progress {
   x: 26;
-  y: 29;
+  y: 36;
   height: 5;
   width: 10;
 }
 
+/*  Progress Bar Lines*/
 .bg {
   x:26;
-  y:31;
+  y:38;
   height: 1;
   width: 65%-24;
 }
 
+/*  Progress Bar Target NOT Met Circle*/
 .tgt-no {
   cx: 65%+5;
-  cy: 31;
+  cy: 38;
   r: 4;
 }
 
+/*  Progress Bar Target Met Circle*/
 .tgt-yes {
   cx: 65%+5;
-  cy: 31;
+  cy: 38;
   r: 8; 
   display: none;
 }
@@ -245,16 +251,28 @@
   y:0;
 }
 
+/* Icon to the left of goals in main screen */
+.icon-goal {
+  width: 24;
+  height: 24;
+  x:-2;
+  y:7;
+}
+
+/* Goal Count Number */
 .count {
-  font-size: 32;
+  font-size: 33;
   x: 26;
-  y: 25;
+  y: 30;
   text-length: 15; 
   font-family: Fabrikat-Bold;
+  letter-spacing: 3;
 }
 
 .sideCount {
   font-size: 28;
+  x: 26;
+  y: 25;
 }
 
 #hr-icon-systole {

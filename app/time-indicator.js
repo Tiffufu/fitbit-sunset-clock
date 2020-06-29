@@ -20,11 +20,11 @@ export let TimeIndicator = function(document, settings) {
     switch (dateFormat) {     
       case "SW DD.MM": { 
         let dayName = weekday.getShortWeekdayName(language, dayOfWeek);
-        return dayName + " " + "(" + util.zeroPad(day) + "/" + util.zeroPad(monthNumber)+ ")";  
+        return dayName + " " + util.zeroPad(day) + "-" + util.zeroPad(monthNumber);  
       }
       case "SW MM.DD": {
         let dayName = weekday.getShortWeekdayName(language, dayOfWeek);
-        return dayName + " "  + "(" +  util.zeroPad(monthNumber) + "/" + util.zeroPad(day)+ ")"; 
+        return dayName + " "  + util.zeroPad(monthNumber) + "-" + util.zeroPad(day); 
       }
       case "SW DD SM": {
         let dayName = weekday.getShortWeekdayName(language, dayOfWeek);
@@ -42,12 +42,12 @@ export let TimeIndicator = function(document, settings) {
       }         
       case "MM.DD": {
         let dayName = weekday.getWeekdayName(language, dayOfWeek);
-        return dayName + " " + "(" + util.zeroPad(monthNumber) + "/" + util.zeroPad(day) + ")"; 
+        return  dayName + " " + util.zeroPad(monthNumber) + "-" + util.zeroPad(day); 
       }
       case "DD.MM":
       default:  {
         let dayName = weekday.getWeekdayName(language, dayOfWeek);
-        return dayName + " " + "(" + util.zeroPad(day) + "/" + util.zeroPad(monthNumber) + ")";
+        return dayName + " " + util.zeroPad(day) + "-" + util.zeroPad(monthNumber);
       }
     }    
   }

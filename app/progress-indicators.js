@@ -40,12 +40,12 @@ export let ProgressIndicators = function(document, settings, stepsProgress) {
   }
   
   let goalTypesColors = {
-    "NONE": "#FF9A57",
-    "steps": "#FF9A57",
-    "distance": "#D96857",
-    "elevationGain": "#F06CA7",
-    "calories": "#BF57D9",
-    "activeMinutes": "#8E61F3"
+    "NONE": "#FFD5B9",
+    "steps": "#FFD5B9",
+    "distance": "#F0C3BC",
+    "elevationGain": "#F7C5DC",
+    "calories": "#E5BCF0",
+    "activeMinutes": "#D2C2FA"
   }
   
 

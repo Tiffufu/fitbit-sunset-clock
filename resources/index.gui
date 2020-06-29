@@ -37,7 +37,7 @@
          <circle class="tgt-yes" />
          <rect class="progress" />
          <text class="count">8888</text>
-         <image class="icon" href="stat_steps_solid_24px.png" />
+         <image class="icon-goal" href="stat_steps_solid_24px.png" />
       </g>
       <g id="goal1">
          <rect class="bg" />
@@ -45,7 +45,7 @@
          <circle class="tgt-yes" />
          <rect class="progress" />
          <text class="count">8888</text>
-         <image class="icon" href="stat_dist_solid_24px.png" />
+         <image class="icon-goal" href="stat_dist_solid_24px.png" />
       </g>
       <g id="goal2">
          <rect class="bg" />
@@ -53,7 +53,7 @@
          <circle class="tgt-yes" />
          <rect class="progress" />
          <text class="count">8888</text>
-         <image class="icon" href="stat_floors_solid_24px.png" />
+         <image class="icon-goal" href="stat_floors_solid_24px.png" />
       </g>
       <g id="goal3">
          <rect class="bg" />
@@ -61,7 +61,7 @@
          <circle class="tgt-yes" />
          <rect class="progress" />
          <text class="count">8888</text>
-         <image class="icon" href="stat_cals_solid_24px.png" />
+         <image class="icon-goal" href="stat_cals_solid_24px.png" />
       </g>
       <g id="goal4">
          <rect class="bg" />
@@ -69,7 +69,7 @@
          <circle class="tgt-yes" />
          <rect class="progress" />
          <text class="count">8888</text>
-         <image class="icon" href="stat_am_solid_24px.png" />
+         <image class="icon-goal" href="stat_am_solid_24px.png" />
       </g>
    </g>
    <rect id="crypto-container">
